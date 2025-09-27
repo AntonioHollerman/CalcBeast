@@ -1,0 +1,5 @@
+{
+  "category ": "Integrals",
+  "front" : "\\int \\frac{du}{u}",
+  "back" : "\\ln |u| + C"
+}

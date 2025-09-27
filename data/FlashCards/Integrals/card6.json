@@ -1,0 +1,5 @@
+{
+  "category ": "Integrals",
+  "front" : "\\int \\cos u \\, du",
+  "back" : "\\sin u + C"
+}

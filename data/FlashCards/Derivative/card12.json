@@ -1,0 +1,5 @@
+{
+  "category ": "Derivative",
+  "front" : "\\frac{d}{dx}(\\cos x)",
+  "back" : "-\\sin x"
+}

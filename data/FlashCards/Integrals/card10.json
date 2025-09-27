@@ -1,0 +1,5 @@
+{
+  "category ": "Integrals",
+  "front" : "\\int \\csc u \\cot u \\, du",
+  "back" : "-\\csc u + C"
+}

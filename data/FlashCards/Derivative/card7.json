@@ -1,0 +1,5 @@
+{
+  "category ": "Derivative",
+  "front" : "\\frac{d}{dx}\\left(\\frac{f(x)}{g(x)}\\right)",
+  "back" : "\\frac{g(x)f'(x) - f(x)g'(x)}{(g(x))^2}"
+}

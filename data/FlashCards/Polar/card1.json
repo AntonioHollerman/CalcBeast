@@ -1,0 +1,5 @@
+{
+  "category ": "Polar",
+  "front" : "Relationship between polar and Cartesian coordinates",
+  "back" : "x = r \\cos \\theta,y = r \\sin \\theta,r^2 = x^2 + y^2 , \\quad \\tan \\theta = \\frac{y}{x}"
+}
