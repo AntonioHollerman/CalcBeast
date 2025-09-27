@@ -14,6 +14,7 @@ module api {
     requires com.fasterxml.jackson.datatype.jdk8;
     requires com.fasterxml.jackson.datatype.jsr310;
 
+    requires io.reactivex.rxjava3;
     exports agent;
     exports database;
 }
