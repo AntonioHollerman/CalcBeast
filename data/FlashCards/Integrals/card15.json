@@ -1,0 +1,5 @@
+{
+  "category ": "Integrals",
+  "front" : "\\int \\frac{du}{\\sqrt{a^2 - u^2}}",
+  "back" : "\\sin^{-1}\\!\\left(\\frac{u}{a}\\right) + C"
+}

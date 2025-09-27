@@ -1,0 +1,5 @@
+{
+  "category ": "Derivative",
+  "front" : "\\frac{d}{dx}(\\log_b x)",
+  "back" : "\\frac{1}{x \\ln b}"
+}

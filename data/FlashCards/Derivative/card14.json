@@ -1,0 +1,5 @@
+{
+  "category ": "Derivative",
+  "front" : "\\frac{d}{dx}(\\csc x)",
+  "back" : "-\\csc x \\cot x"
+}

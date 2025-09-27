@@ -1,0 +1,5 @@
+{
+  "category ": "Integrals",
+  "front" : "\\int \\frac{du}{a^2 + u^2}",
+  "back" : "\\frac{1}{a} \\tan^{-1}\\!\\left(\\frac{u}{a}\\right) + C"
+}

@@ -1,0 +1,5 @@
+{
+  "category ": "Derivative",
+  "front" : "\\frac{d}{dx}(\\cot^{-1}x)",
+  "back" : "-\\frac{1}{1 + x^2}"
+}

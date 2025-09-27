@@ -1,0 +1,5 @@
+{
+  "category ": "Integrals",
+  "front" : "\\int u^n \\, du",
+  "back" : "\\frac{u^{n+1}}{n+1} + C, \\quad n \\ne -1"
+}

@@ -1,0 +1,5 @@
+{
+  "category ": "Integrals",
+  "front" : "\\int \\sec^2 u \\, du",
+  "back" : "\\tan u + C"
+}

@@ -1,0 +1,5 @@
+{
+  "category ": "Derivative",
+  "front" : "\\frac{d}{dx}\\big[f(g(x))\\big]",
+  "back" : "f'(g(x)) \\cdot g'(x)"
+}
