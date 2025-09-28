@@ -1,0 +1,5 @@
+{
+  "category ": "Vector",
+  "front" : "Unit Tangent Vector",
+  "back" : "\\vec{T}(t) = \\frac{\\vec{v}(t)}{|\\vec{v}(t)|}"
+}

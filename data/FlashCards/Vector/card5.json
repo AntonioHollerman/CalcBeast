@@ -1,0 +1,5 @@
+{
+  "category ": "Vector",
+  "front" : "Arc length in Vector Parametric Form",
+  "back" : "L = \\int_a^b \\big|\\vec{v}(t)\\big| \\, dt \n= \\int_a^b \\sqrt{ \\big(x'(t)\\big)^2 + \\big(y'(t)\\big)^2 + \\big(z'(t)\\big)^2 } \\, dt"
+}

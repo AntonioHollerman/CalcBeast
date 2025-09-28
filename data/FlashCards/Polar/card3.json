@@ -1,5 +1,5 @@
 {
   "category ": "Polar",
   "front" : "Second Derivative for a Polar",
-  "back" : ""
+  "back" : "\\frac{dy}{dx} = \\frac{\\tfrac{dy}{d\\theta}}{\\tfrac{dx}{d\\theta}} \n= \\frac{r'(\\theta)\\sin\\theta + r(\\theta)\\cos\\theta}{r'(\\theta)\\cos\\theta - r(\\theta)\\sin\\theta}"
 }
