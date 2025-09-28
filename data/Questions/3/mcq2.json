@@ -1,0 +1,13 @@
+{
+  "unit": 3,
+  "question": {
+    "text": "For the curve \\(x^2 + xy + y^2 = 7\\), find \\(\\dfrac{dy}{dx}\\) at \\((2,1)\\).",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "\\(-\\dfrac{5}{4}\\) \u2190 correct", "image": "none" },
+    { "text": "\\(-\\dfrac{4}{5}\\)", "image": "none" },
+    { "text": "\\(\\dfrac{5}{4}\\)", "image": "none" },
+    { "text": "\\(\\dfrac{4}{5}\\)", "image": "none" }
+  ]
+}

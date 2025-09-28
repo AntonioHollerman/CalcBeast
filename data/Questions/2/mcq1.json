@@ -1,0 +1,13 @@
+{
+  "unit": 2,
+  "question": {
+    "text": "If f(x) = \\(x^2 + 1)/(x + 1)\\, what is f'(x)?",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "\\((2x + 1)/(x + 1)^2\\) \u2190 correct", "image": "none" },
+    { "text": "\\((2x + 1)/(x + 1)\\)", "image": "none" },
+    { "text": "\\((2x - 1)/(x + 1)^2\\)", "image": "none" },
+    { "text": "\\((2x - 1)/(x + 1)\\)", "image": "none" }
+  ]
+}

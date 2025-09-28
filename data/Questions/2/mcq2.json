@@ -1,0 +1,13 @@
+{
+  "unit": 2,
+  "question": {
+    "text": "If f(x) = \\sqrt{x}\\sin(x), what is f''(x)?",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "\\( \\sqrt{x}\\cos x - \\dfrac{2\\sin x}{\\sqrt{x}} \\) \u2190 correct", "image": "none" },
+    { "text": "\\( \\sqrt{x}\\cos x + \\dfrac{2\\sin x}{\\sqrt{x}} \\)", "image": "none" },
+    { "text": "\\( \\sqrt{x}\\cos x - \\dfrac{\\sin x}{\\sqrt{x}} \\)", "image": "none" },
+    { "text": "\\( \\sqrt{x}\\cos x + \\dfrac{\\sin x}{\\sqrt{x}} \\)", "image": "none" }
+  ]
+}

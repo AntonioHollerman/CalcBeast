@@ -1,0 +1,43 @@
+{
+  "unit": 5,
+  "questions": [
+    {
+      "part": "A",
+      "text": "Consider f(x) = x^4 - 4x^3. Find all critical numbers and determine where f is increasing/decreasing.",
+      "image": "none"
+    },
+    {
+      "part": "B",
+      "text": "Classify each critical number as a local maximum, local minimum, or neither. Justify using the first-derivative sign change.",
+      "image": "none"
+    },
+    {
+      "part": "C",
+      "text": "Determine the intervals where f is concave up/down and find all inflection points.",
+      "image": "none"
+    },
+    {
+      "part": "D",
+      "text": "Find the absolute minimum of f on [-1, 5]; report the x-value and f(x).",
+      "image": "none"
+    }
+  ],
+  "answers": [
+    {
+      "part": "A",
+      "text": "f'(x) = 4x^3 - 12x^2 = 4x^2(x - 3). Critical numbers: x = 0, 3. Sign of f': (-\\infty, 0): f' < 0 (decreasing); (0, 3): f' < 0 (decreasing); (3, \\infty): f' > 0 (increasing)."
+    },
+    {
+      "part": "B",
+      "text": "At x = 3, f' changes from negative to positive \\Rightarrow local minimum. At x = 0, f' = 0 but no sign change \\Rightarrow neither max nor min (horizontal inflection)."
+    },
+    {
+      "part": "C",
+      "text": "f''(x) = 12x^2 - 24x = 12x(x - 2). Concave up on (-\\infty, 0) \\cup (2, \\infty); concave down on (0, 2). Inflection points where f'' changes sign: x = 0 and x = 2. Points: (0, 0) and (2, f(2)) = (2, 16 - 32 = -16)."
+    },
+    {
+      "part": "D",
+      "text": "Evaluate at endpoints and criticals: f(-1) = 5, f(0) = 0, f(3) = -27, f(5) = 125. Absolute minimum is -27 at x = 3."
+    }
+  ]
+}

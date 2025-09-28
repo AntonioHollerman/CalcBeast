@@ -1,0 +1,13 @@
+{
+  "unit": 5,
+  "question": {
+    "text": "Let h(x) = x/(x^2 + 1). On which interval(s) is h concave up?",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "(-∞, -\\sqrt{3}) \\cup (0, \\sqrt{3})", "image": "none" },
+    { "text": "(-\\sqrt{3}, 0) \\cup (\\sqrt{3}, ∞) \u2190 correct", "image": "none" },
+    { "text": "(-∞, 0) only", "image": "none" },
+    { "text": "(0, ∞) only", "image": "none" }
+  ]
+}

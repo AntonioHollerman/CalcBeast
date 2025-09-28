@@ -1,0 +1,13 @@
+{
+  "unit": 3,
+  "question": {
+    "text": "Let f(x) = x^3 + x. If f^{-1} exists, what is (f^{-1})'(2)?",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "1/3", "image": "none" },
+    { "text": "1/4 \u2190 correct", "image": "none" },
+    { "text": "1/5", "image": "none" },
+    { "text": "1/6", "image": "none" }
+  ]
+}

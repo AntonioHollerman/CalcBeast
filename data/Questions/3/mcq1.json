@@ -1,0 +1,13 @@
+{
+  "unit": 3,
+  "question": {
+    "text": "Let f(x) = \\exp(((x^2 + 1)^3)). What is f'(1)?",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "12e^8", "image": "none" },
+    { "text": "24e^8 \u2190 correct", "image": "none" },
+    { "text": "24e^4", "image": "none" },
+    { "text": "48e^8", "image": "none" }
+  ]
+}

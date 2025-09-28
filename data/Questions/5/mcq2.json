@@ -1,0 +1,13 @@
+{
+  "unit": 5,
+  "question": {
+    "text": "For g(x) = ln x on [1, e^2], the MVT guarantees some c with g'(c) = (g(e^2) - g(1))/(e^2 - 1). Which c works?",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "2", "image": "none" },
+    { "text": "(e^2 - 1)/2 \u2190 correct", "image": "none" },
+    { "text": "e", "image": "none" },
+    { "text": "(e^2 + 1)/2", "image": "none" }
+  ]
+}

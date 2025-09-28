@@ -1,0 +1,13 @@
+{
+  "unit": 4,
+  "question": {
+    "text": "A spherical balloon has volume V = \\tfrac{4}{3}\\pi r^3. If \\dfrac{dV}{dt}=20\\ \text{ cm}^3/\\text{s} when r=3\\ \text{ cm}, then \\dfrac{dr}{dt} is:",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "\\( \\dfrac{5}{9\\pi} \\text{ cm/s} \\) \u2190 correct", "image": "none" },
+    { "text": "\\( \\dfrac{10}{9\\pi} \\text{ cm/s} \\)", "image": "none" },
+    { "text": "\\( \\dfrac{5}{18\\pi} \\text{ cm/s} \\)", "image": "none" },
+    { "text": "\\( \\dfrac{20}{27\\pi} \\text{ cm/s} \\)", "image": "none" }
+  ]
+}

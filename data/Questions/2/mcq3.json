@@ -1,0 +1,13 @@
+{
+  "unit": 2,
+  "question": {
+    "text": "If g(x) = \\ln(2e^{-x} + 3), what is g'(x)?",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "\\( -e^{-x}/(2e^{-x} + 3) \\) \u2190 correct", "image": "none" },
+    { "text": "\\( e^{-x}/(3 - e^{-x}) \\)", "image": "none" },
+    { "text": "\\( -e^{-x}/(3 - e^{-x}) \\)", "image": "none" },
+    { "text": "\\( -e^{-x}/(2e^{-x} + 3) \\)", "image": "none" }
+  ]
+}

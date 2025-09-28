@@ -1,0 +1,13 @@
+{
+  "unit": 5,
+  "question": {
+    "text": "Let f(x) = x^4 − 4x^3. Which statement is true?",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "One local maximum at x = 0 and one local minimum at x = 3", "image": "none" },
+    { "text": "One local minimum at x = 0 and one local maximum at x = 3", "image": "none" },
+    { "text": "No extrema", "image": "none" },
+    { "text": "One local minimum at x = 3 and x = 0 is not an extremum \u2190 correct", "image": "none" }
+  ]
+}

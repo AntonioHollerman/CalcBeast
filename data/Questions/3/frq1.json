@@ -1,0 +1,43 @@
+{
+  "unit": 3,
+  "questions": [
+    {
+      "part": "A",
+      "text": "The curve is defined by \\(x e^{y}+y^{2}=4\\). Find \\(\\dfrac{dy}{dx}\\) in terms of \\x and \\y.",
+      "image": "none"
+    },
+    {
+      "part": "B",
+      "text": "Compute the slope \\(y'\\) at the point \\((4,0)\\).",
+      "image": "none"
+    },
+    {
+      "part": "C",
+      "text": "Find \\(\\dfrac{d^{2}y}{dx^{2}}\\) at \\((4,0)\\).",
+      "image": "none"
+    },
+    {
+      "part": "D",
+      "text": "Write the equation of the tangent line at \\((4,0)\\).",
+      "image": "none"
+    }
+  ],
+  "answers": [
+    {
+      "part": "A",
+      "text": "Differentiate implicitly: \\(\n\\dfrac{d}{dx}(x e^{y})+\\dfrac{d}{dx}(y^{2})=0\n\\). Product rule on \\(x e^{y}\\): \\(e^{y}+x e^{y} y' + 2y y'=0\\). Solve for \\y': \\(\n y'=-\\dfrac{e^{y}}{x e^{y}+2y}.\n\\)"
+    },
+    {
+      "part": "B",
+      "text": "At \\((4,0)\\): \\(y'=-\\dfrac{e^{0}}{4e^{0}+0}=-\\dfrac{1}{4}\\)."
+    },
+    {
+      "part": "C",
+      "text": "From \\(y'=-\\dfrac{e^{y}}{x e^{y}+2y}\\), write \\N = -e^{y},\\ D = x e^{y}+2y\\ and use the quotient rule: \\(y''=\\dfrac{N'D - N D'}{D^{2}}\\) with \\N'=-e^{y}y'\\, \\D'=e^{y}+x e^{y}y'+2y'\\. At \\((4,0)\\) and \\(y'=-1/4\\): \\(e^{y}=1, N=-1, D=4, N'=1/4, D'=-1/2\\). Hence \\(y''=\\dfrac{(1/4)\\cdot 4 - (-1)\\cdot(-1/2)}{4^{2}}=\\dfrac{1-1/2}{16}=\\dfrac{1}{32}\\)."
+    },
+    {
+      "part": "D",
+      "text": "Point-slope form with slope \\(-1/4\\): \\(y-0=-\\tfrac{1}{4}(x-4)\\Rightarrow y=-\\tfrac{1}{4}x+1\\)."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "unit": 4,
+  "question": {
+    "text": "A particle moves on a line with position s(t) = t^3 - 6t^2 + 9t (meters). What is the acceleration at the first time the particle is at rest?",
+    "image": "none"
+  },
+  "answers": [
+    { "text": "-12 m/s^2", "image": "none" },
+    { "text": "-6 m/s^2 \u2190 correct", "image": "none" },
+    { "text": "0 m/s^2", "image": "none" },
+    { "text": "6 m/s^2", "image": "none" }
+  ]
+}
