@@ -1,0 +1,5 @@
+{
+  "category ": "Polar",
+  "front" : "Arc Length in Polar",
+  "back" : "L = \\int_{\\alpha}^{\\beta} \\sqrt{ \\big(r(\\theta)\\big)^2 + \\left(\\frac{dr}{d\\theta}\\right)^2 } \\, d\\theta"
+}

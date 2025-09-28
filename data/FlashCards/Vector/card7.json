@@ -1,0 +1,5 @@
+{
+  "category ": "Vector",
+  "front" : "Unit Normal Vector",
+  "back" : "\\vec{N}(t) = \\frac{\\tfrac{d\\vec{T}}{dt}}{\\big|\\tfrac{d\\vec{T}}{dt}\\big|}"
+}

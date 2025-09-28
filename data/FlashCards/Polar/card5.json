@@ -1,0 +1,5 @@
+{
+  "category ": "Polar",
+  "front" : "Area Between Two Curves",
+  "back" : "A = \\tfrac{1}{2} \\int_{\\alpha}^{\\beta} \\Big( \\big(r_{\\text{outer}}(\\theta)\\big)^2 - \\big(r_{\\text{inner}}(\\theta)\\big)^2 \\Big) \\, d\\theta"
+}

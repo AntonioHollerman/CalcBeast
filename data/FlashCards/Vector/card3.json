@@ -1,0 +1,5 @@
+{
+  "category ": "Vector",
+  "front" : "Dot Product",
+  "back" : "\\vec{u} \\cdot \\vec{v} = |\\vec{u}| \\, |\\vec{v}| \\cos \\theta"
+}

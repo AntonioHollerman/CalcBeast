@@ -1,0 +1,25 @@
+{
+  "unit": 3,
+  "question": {
+    "text": "Let f: \\mathbb{R} \\to \\mathbb{R} be a function such that \\( f(x) = \\dfrac{x^2+2x+1}{x^2+1} \\). Then",
+    "image": "none"
+  },
+  "answers": [
+    {
+      "text": "f(x) is many-one in \\(( -\\infty, -1)\\)",
+      "image": "none"
+    },
+    {
+      "text": "f(x) is many-one in \\((1, \\infty)\\)",
+      "image": "none"
+    },
+    {
+      "text": "f(x) is one-one in \\([1, \\infty)\\) but not in \\(( -\\infty, \\infty)\\) \\u2190 correct",
+      "image": "none"
+    },
+    {
+      "text": "f(x) is one-one in \\(( -\\infty, \\infty)\\)",
+      "image": "none"
+    }
+  ]
+}

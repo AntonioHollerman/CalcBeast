@@ -1,0 +1,52 @@
+{
+  "unit": 1,
+  "questions": [
+    {
+      "part": "a",
+      "text": "State the (limit) definition of \\(f'(a)\\).",
+      "image": "none"
+    },
+    {
+      "part": "b",
+      "text": "Using only the definition in (a), prove that if \\(f\\) is differentiable at \\(a\\), then \\(f\\) is continuous at \\(a\\).",
+      "image": "none"
+    },
+    {
+      "part": "c",
+      "text": "(Linearity) Suppose \\(f\\) and \\(g\\) are differentiable at \\(a\\) and \\((\\alpha,\\beta)\\in\\mathbb{R}^2\\). Prove \\(((\\alpha f+\\beta g))'(a)=\\alpha f'(a)+\\beta g'(a)\\) using the definition.",
+      "image": "none"
+    },
+    {
+      "part": "d",
+      "text": "(Product rule from first principles) If \\(f\\) and \\(g\\) are differentiable at \\(a\\), prove \\((fg)'(a)=f'(a)g(a)+f(a)g'(a)\\) directly from the limit definition.",
+      "image": "none"
+    },
+    {
+      "part": "e",
+      "text": "(Non-differentiability example) Use the definition to determine whether \\(h(x)=|x|\\) is differentiable at \\(a=0\\).",
+      "image": "none"
+    }
+  ],
+  "answers": [
+    {
+      "part": "a",
+      "text": "\\(f'(a)=\\lim_{h\\to 0}\\dfrac{f(a+h)-f(a)}{h}\\) (if this limit exists as a finite real number)."
+    },
+    {
+      "part": "b",
+      "text": "Write \\(f(a+h)-f(a)=\\dfrac{f(a+h)-f(a)}{h}\\cdot h\\). As \\(h\\to 0\\), \\((f(a+h)-f(a))/h\\to f'(a)\\) (finite) and \\(h\\to 0\\), so the product \\to 0. Hence \\(f(a+h)\\to f(a)\\); thus \\(f\\) is continuous at \\(a\\)."
+    },
+    {
+      "part": "c",
+      "text": "Let \\(F(x)=\\alpha f(x)+\\beta g(x)\\). Then \\(\nF'(a)=\\lim_{h\\to 0}\\dfrac{\\alpha[f(a+h)-f(a)]+\\beta[g(a+h)-g(a)]}{h}\n=\\alpha\\lim_{h\\to 0}\\dfrac{f(a+h)-f(a)}{h}+\\beta\\lim_{h\\to 0}\\dfrac{g(a+h)-g(a)}{h}\n=\\alpha f'(a)+\\beta g'(a).\\)"
+    },
+    {
+      "part": "d",
+      "text": "With \\(P(x)=f(x)g(x)\\), \\(\n\\dfrac{P(a+h)-P(a)}{h}=\\dfrac{f(a+h)g(a+h)-f(a)g(a)}{h}\n=\\dfrac{f(a+h)[g(a+h)-g(a)]}{h}+g(a)\\dfrac{f(a+h)-f(a)}{h}.\n\\) Taking limits and using continuity of \\(f,g\\) at \\(a\\) (from part (b)) gives \\(f(a)g'(a)+g(a)f'(a)\\). Thus \\((fg)'(a)=f'(a)g(a)+f(a)g'(a)\\)."
+    },
+    {
+      "part": "e",
+      "text": "For \\(h\\ne 0\\), \\(\n\\dfrac{|0+h|-|0|}{h}=\\dfrac{|h|}{h}=\\begin{cases}1,& h>0\\\\-1,& h<0\\end{cases}\n\\). The one-sided limits differ, so the limit does not exist. Therefore \\(h(x)=|x|\\) is **not differentiable** at \\(0\\)."
+    }
+  ]
+}

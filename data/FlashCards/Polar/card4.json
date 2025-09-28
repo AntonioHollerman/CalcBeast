@@ -1,0 +1,5 @@
+{
+  "category ": "Polar",
+  "front" : "Area of Region Bounded by r(\\theta)",
+  "back" : "A = \\tfrac{1}{2} \\int_{\\alpha}^{\\beta} \\big(r(\\theta)\\big)^2 \\, d\\theta"
+}

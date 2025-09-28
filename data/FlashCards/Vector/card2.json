@@ -1,0 +1,5 @@
+{
+  "category ": "Vector",
+  "front" : "Curvature",
+  "back" : "\\kappa(t) = \\frac{ \\big|\\vec{v} \\times \\vec{a}\\big| }{ \\big|\\vec{v}\\big|^3 } ,\\kappa(x) = \\frac{ |y''| }{ \\big(1 + (y')^2 \\big)^{3/2} }"
+}

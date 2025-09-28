@@ -1,0 +1,25 @@
+{
+  "unit": 1,
+  "question": {
+    "text": "If ( f(z)=\\begin{cases} u(x,y)+i,v(x,y), & z\\ne0\\ 0, & z=0\\end{cases} ) where (u(x,y)=\\dfrac{x^{3}-y^{3}}{x^{2}+y^{2}}) and (v(x,y)=\\dfrac{x^{3}+y^{3}}{x^{2}+y^{2}}), then the value of (\\displaystyle \\lim_{z\\to0} \\frac{f(z)-f(0)}{z-0}\\) along (y=x) will be",
+    "image": "none"
+  },
+  "answers": [
+    {
+      "text": "1 - i",
+      "image": "none"
+    },
+    {
+      "text": "\\(\\dfrac{1-i}{2}\\)",
+      "image": "none"
+    },
+    {
+      "text": "1 + i",
+      "image": "none"
+    },
+    {
+      "text": "\\(\\dfrac{1+i}{2}\\)  ← correct",
+      "image": "none"
+    }
+  ]
+}

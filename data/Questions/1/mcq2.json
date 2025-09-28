@@ -1,0 +1,25 @@
+{
+  "unit": 2,
+  "question": {
+    "text": "Let x = 2 be a root of the equation x^2 + p x + q = 0 and \\( f(x) = \\begin{cases} \\dfrac{1-\\cos\\big(x^2 - 4px + q^2 + 8q + 16\\big)}{(x-2p)^4}, & x \\ne 2p \\ 0, & x = 2p \\end{cases} \\). Then \\( \\lim_{x\to 2p} [f(x)] \\), where [\\,\\.] denotes the greatest integer function, is",
+    "image": "none"
+  },
+  "answers": [
+    {
+      "text": "2",
+      "image": "none"
+    },
+    {
+      "text": "1",
+      "image": "none"
+    },
+    {
+      "text": "0 \\u2190 correct",
+      "image": "none"
+    },
+    {
+      "text": "-1",
+      "image": "none"
+    }
+  ]
+}

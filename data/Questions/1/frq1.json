@@ -1,0 +1,25 @@
+{
+  "unit": 4,
+  "questions": [
+    {
+      "part": "A",
+      "text": "Find the limit: \\( \\lim_{x\\to \\pi/4} \\dfrac{x(1-\\tan x)}{\\cos x - \\sin x} \\).",
+      "image": "none"
+    },
+    {
+      "part": "B",
+      "text": "Use the result of (A) to derive an approximation of \\sec x in terms of x for values of x near \\pi/4.",
+      "image": "none"
+    }
+  ],
+  "answers": [
+    {
+      "part": "A",
+      "text": "Rewrite \\dfrac{x(1-\\tan x)}{\\cos x-\\sin x}=x\\cdot \\dfrac{\\cos x-\\sin x}{\\cos x} \\cdot \\dfrac{1}{\\cos x-\\sin x}=\\dfrac{x}{\\cos x}.\\\nThus \\( \\lim_{x\\to \\pi/4} \\dfrac{x(1-\\tan x)}{\\cos x-\\sin x} = \\lim_{x\\to \\pi/4} \\dfrac{x}{\\cos x} = \\dfrac{\\pi/4}{\\cos(\\pi/4)} = \\dfrac{\\pi/4}{\\sqrt{2}/2}= \\dfrac{\\pi \\sqrt{2}}{4}. \\)"
+    },
+    {
+      "part": "B",
+      "text": "Near \\pi/4, the expression equals approximately \\dfrac{x}{\\cos x}. From part (A), \\dfrac{x}{\\cos x} \\approx \\dfrac{\\pi \\sqrt{2}}{4}. Solving for \\sec x gives \\sec x \\approx \\dfrac{\\pi \\sqrt{2}}{4x} for x near \\pi/4."
+    }
+  ]
+}

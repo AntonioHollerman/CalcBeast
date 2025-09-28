@@ -1,0 +1,5 @@
+{
+  "category ": "Vector",
+  "front" : "Magnitude",
+  "back" : "\\text{Magnitude: } \\; \\big|\\vec{r}(t)\\big| = \\sqrt{x^2 + y^2 + z^2}"
+}
