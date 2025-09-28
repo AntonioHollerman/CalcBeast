@@ -7,12 +7,13 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+// Unit test size 600, 250
 public class TestWindow extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/test_window.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("JLaTeXMath Preview!");
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/quiz.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 650, 400);
+        stage.setTitle("Testing!");
         stage.setScene(scene);
         stage.show();
     }
