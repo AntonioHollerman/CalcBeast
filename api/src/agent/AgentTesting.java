@@ -15,8 +15,8 @@ public class AgentTesting {
             }
 
             var response =
-                    AgentsManager.client.models.generateContent(
-                            "gemini-2.5-flash",
+                    AgentsManager.genaiApi.models.generateContent(
+                            AgentsManager.MODEL,
                             prompt,
                             null);
             System.out.println(response.text());
