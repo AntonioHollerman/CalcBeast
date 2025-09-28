@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefWidth="800.0" prefHeight="500.0"
+            xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.FlashCardController">
+
+    <children>
+        <BorderPane AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0"
+                    AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                    padding="$outerPadding">
+            <!-- OUTER PADDING VAR -->
+            <padding>
+                <Insets fx:id="outerPadding" top="20" right="24" bottom="24" left="24"/>
+            </padding>
+
+            <!-- Top bar -->
+            <top>
+                <HBox spacing="12" alignment="CENTER_LEFT">
+                    <children>
+                        <Button fx:id="doneBtn" text="Done"/>
+                        <Region HBox.hgrow="ALWAYS"/>
+                        <Button fx:id="shuffleBtn" text="Shuffle"/>
+                    </children>
+                    <padding><Insets top="6" right="0" bottom="10" left="0"/></padding>
+                </HBox>
+            </top>
+
+            <!-- Left / Right arrows -->
+            <left>
+                <VBox alignment="CENTER" prefWidth="110">
+                    <children>
+                        <Button fx:id="leftBtn" text="◀" minWidth="90" minHeight="90" style="-fx-font-size:32;"/>
+                    </children>
+                </VBox>
+            </left>
+
+            <right>
+                <VBox alignment="CENTER" prefWidth="110">
+                    <children>
+                        <Button fx:id="rightBtn" text="▶" minWidth="90" minHeight="90" style="-fx-font-size:32;"/>
+                    </children>
+                </VBox>
+            </right>
+
+            <!-- Center flash card with label + Flip button -->
+            <!-- Center flash card with centered label + Flip button -->
+            <center>
+                <StackPane>
+                    <children>
+                        <!-- Card surface -->
+                        <Region fx:id="centerCard" prefWidth="460" prefHeight="280"
+                                style="-fx-background-color: white;
+                           -fx-background-radius: 14;
+                           -fx-border-color: -fx-text-base-color;
+                           -fx-border-width: 2;
+                           -fx-border-radius: 14;
+                           -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 16, 0.2, 0, 4);"/>
+
+                        <!-- Card content -->
+                        <VBox alignment="CENTER" spacing="16" maxWidth="420"
+                              StackPane.alignment="CENTER">
+                            <padding><Insets top="24" right="24" bottom="24" left="24"/></padding>
+                            <children>
+                                <Label fx:id="centerLabel" text="Term / Definition"
+                                       wrapText="true" maxWidth="420"
+                                       style="-fx-font-size:12; -fx-font-weight:bold; -fx-alignment: center;"/>
+                                <Button fx:id="flipBtn" text="Flip" prefWidth="120"/>
+                            </children>
+                        </VBox>
+                    </children>
+                </StackPane>
+            </center>
+
+        </BorderPane>
+
+        <!-- Floating small button -->
+        <Button fx:id="floatingBtn" text="i"
+                AnchorPane.rightAnchor="24.0" AnchorPane.bottomAnchor="24.0"
+                prefWidth="38" prefHeight="38"
+                style="-fx-background-radius:19; -fx-font-weight:bold;"/>
+    </children>
+</AnchorPane>
